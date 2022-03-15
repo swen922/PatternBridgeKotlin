@@ -67,4 +67,7 @@ fun main(args : Array<String>) {
         rc.volumeUp()
     }
     rc.togglePower()
+
+    rc = RemoteControlAdvanced(tv)
+    rc.mute()
 }
